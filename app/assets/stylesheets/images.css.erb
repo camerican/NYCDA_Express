@@ -1,0 +1,10 @@
+
+<% 
+images = {baby: 'baby.jpg',elephant: 'elephant.png', toaster: 'toaster.gif'}
+
+images.each do |key,url| %>
+
+	#<%= key %> {
+		background-image: url('<%= url %>');
+	} 
+<% end %>

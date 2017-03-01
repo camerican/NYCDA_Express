@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  customer_id: 1
+  description: MyText
+  pick_up_id: 1
+  drop_off_id: 1
+  cost: 9.99
+  vehicle_id: 1
+  status: 1
+
+two:
+  customer_id: 1
+  description: MyText
+  pick_up_id: 1
+  drop_off_id: 1
+  cost: 9.99
+  vehicle_id: 1
+  status: 1

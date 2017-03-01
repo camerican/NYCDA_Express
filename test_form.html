@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Sample Order Form</title>
+</head>
+<body>
+	<h1>Sample Order Form</h1>
+
+	<form action="http://localhost:3000/sample" method="POST">
+		<table>
+		<tr>
+			<th>Item</th>
+			<th>Quantity</th>
+			<th>Action</th>
+		</tr>
+		<tr>
+			<td>Bell Pepper ($2/lb)<input type="hidden" name="item[]" value="1" /></td>
+			<td><input name="quantity[]" /></td>
+			<td><button>Clear</button></td>
+		</tr>
+		<tr>
+			<td>Cayene Pepper ($5/lb)<input type="hidden" name="item[]" value="2" /></td>
+			<td><input name="quantity[]" /></td>
+			<td><button>Clear</button></td>
+		</tr>
+		<tr>
+			<td colspan="3"><input type="Submit" value="Place Order" />
+		</tr>
+		</table>
+	</form>
+</body>
+</html>

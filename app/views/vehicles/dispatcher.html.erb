@@ -1,0 +1,8 @@
+<%= form_tag dispatch_path do
+	 @vehicles.each do |vehicle| %>
+	 <%= vehicle.name %> 
+	 <%= hidden_field_tag :'vehicle[]', vehicle.id %> 
+	 <%= text_field_tag :'quantity[]' %>
+	<% end %>
+	<%= submit_tag :'Submit Order' %>
+<% end %>
